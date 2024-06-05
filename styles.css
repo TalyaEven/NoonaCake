@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+      font-family: "Jost", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+header {
+    position:inherit;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 10%;
+    flex-direction: row;
+}
+
+a.logo img{
+    max-width: 110px;
+    height: auto;
+}
+
+.navmanue{
+    display: flex;
+}
+
+.navmanue a{
+    color: #2c2c2c;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .45s ease;
+}
+
+.navmanue a:hover{
+    color: #e01f70;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i{
+    margin-right: 18px;
+    color: #2c2c2c;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color:  #e01f70;
+}
+
+#menu-icon{
+    font-size: 25px;
+    color: #2c2c2c;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+section{
+    padding: 5% 10%;
+}
+
+.maim-t {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    color: #2c2c2c;
+}
+
+.maim-t::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/CED12826-BD8B-4CD0-8A91-1B5831B683E3.JPG') no-repeat center center/cover;
+    transform: rotate(180deg); /* סיבוב התמונה ב-90 מעלות */
+    z-index: -1; /* הצגת הרקע מתחת לתוכן */
+}
+
+
+.main-text h3{
+    color:#2c2c2c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight:100;
+    margin-top: 20px;
+}
+
+.maim-t h1{
+    color: black;
+    font-size:50px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600px;
+    margin: 10px 0 15px;
+}
+
+.maim-t p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.down-arrow{
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+
+.down i{
+    font-size: 25px;
+    color: #2c2c2c;
+    border: 2px solid #2c2c2c;
+    border-radius: 30px;
+    padding: 12px 12px;
+}
+
+.down i:hover{
+    background-color: #2c2c2c;
+    color: #fff;
+    transition: all .50s ease;
+}
+
+button {
+    border: none; /* Remove borders */
+    background: none;
+    color: white; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Set cursor */
+    transition: background-color 0.3s; /* Add transition for background color */
+}
+
+button:hover {
+    background: none;
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.product-row{
+    margin-top: 50px;
+}
+
+.cookies-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    object-fit: cover; 
+    border: 5px solid #fff; /* הוספת מסגרת לבנה עם רוחב 5px */
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.cookies-img:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    margin-top: 10px;
+}
+
+.product .row{
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.product .product-row .box{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 22rem;
+    background-color: rgba(204, 194, 200, 0.23);
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    border-radius: 3rem;
+
+}
+
+.product .product-row .img {
+    width: 100%;
+    height: auto;
+}
+
+.product .product-row .content{
+    margin-bottom: 4rem;
+}
+
+.product .product-row .product-content h3{
+    font-family:  "Fredoka", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 13px;
+}
+
+.product .product-row .product-content p{
+    font-family:  "Fredoka", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+#opening-parag {
+    text-align:right;
+    font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 3300px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  
+  background: rgba(204, 194, 200, 0.23);
+  border-width: 1px;
+  padding-right: 15px;
+  padding-top:2px;
+  padding-bottom: 2px;
+}
+
+
+
+
+
+
